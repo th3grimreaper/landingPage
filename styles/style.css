@@ -71,8 +71,8 @@ a {
 
 .awesome {
   display: flex;
-  justify-content: center;
-  gap: 2em;
+  justify-content: space-between;
+  max-width: 80%;
 }
 
 .text,
@@ -86,7 +86,7 @@ a {
 }
 
 img {
-  height: 250px;
+  height: 300px;
   width: 600px;
   max-width: 100%;
 }
@@ -137,9 +137,9 @@ img {
 .info {
   display: flex;
   padding: 1rem 4rem 4rem 4rem;
-  gap: 5rem;
+  gap: 6rem;
   justify-content: center;
-  max-width: 50%;
+  max-width: 60%;
 }
 
 .randinf {
