@@ -107,6 +107,9 @@ img {
 }
 
 .button {
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 16px;
   background-color: #3882f6;
   border-radius: 5px;
   border: none;
