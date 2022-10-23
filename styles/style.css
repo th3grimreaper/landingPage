@@ -170,3 +170,26 @@ img {
   background-color: #1f2937;
   color: #FFF;
 }
+
+@media (max-width:800px) {
+  .row {
+    display: block;
+  }
+
+  .text,
+  .image,
+  .rand-text,
+  .call-text,
+  .sign-up {
+    width: 100%;
+  }
+
+  img,
+  .sign-up {
+    margin-top: 2rem;
+  }
+
+  .call-to-act {
+    padding: 3rem;
+  }
+}
