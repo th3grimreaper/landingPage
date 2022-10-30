@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+/*border: 2px solid red; */
 }
 
 body {
@@ -81,6 +82,7 @@ img {
   font-size: 18px;
   border-radius: 10px;
   padding: .5em 2em;
+  border: none;
 }
 
 .rand-text {
@@ -171,9 +173,27 @@ img {
   color: #FFF;
 }
 
-@media (max-width:900px) {
+@media (max-width:800px) {
   .row {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo + .right-links {
+    margin-top: 1em;
+  }
+
+  .header {
+    padding: 2em 0;
+  }
+
+  li,
+  a,
+  .right-links,
+  .logo {
+    margin: 0;
   }
 
   .text,
