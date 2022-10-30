@@ -86,11 +86,11 @@ img {
 }
 
 .rand-text {
-  font-size: 36px;
+  font-size: 2em;
   color: #1f2937;
   font-weight: 900;
   text-align: center;
-  padding: 5rem;
+  padding: 3em 0;
 }
 
 .a-card {
@@ -174,11 +174,15 @@ img {
 }
 
 @media (max-width:800px) {
-  .row {
+  .header .row {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .row {
+    display: block;
   }
 
   .logo + .right-links {
